@@ -1,0 +1,441 @@
+#sec-1 {
+	padding-top: 10px;
+	background: url('../images/banner.jpg') no-repeat  center -70px;
+	height: 100vh;
+}
+
+#sec-1 .bg-dark {
+    background-color: #000 !important;
+}
+
+#sec-1 .navbar-nav:nth-of-type(2){
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+#sec-1 .navbar-nav:nth-of-type(2) a{
+	padding: 0 5px;
+}
+
+#sec-1 .navbar-nav a {
+	color: #fff !important;
+}
+
+#sec-1 .navbar-nav a:hover {
+	color: #FFCF27 !important;
+}
+
+#sec-1 .navbar-nav:first-of-type a{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#sec-1 .navbar-nav:nth-of-type(2) a i{
+	border: 2px solid #fff;
+	border-radius: 50%;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	line-height: 27px;
+	text-align: center;
+}
+
+#sec-1 .navbar-nav:nth-of-type(2) a i:hover{
+	border: 2px solid #FFCF27;
+	
+}
+
+#sec-1 aside {
+	margin-top: 20%;
+}
+
+#sec-1 aside h3{
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#sec-1 aside h3 span{
+	text-transform:capitalize;
+}
+
+#sec-1 aside h1{
+	font-weight: bold;
+	font-size: 3rem;
+}
+
+#sec-1 aside h1:last-of-type{
+	color: #CD8383;
+	margin-bottom: 30px;
+}
+
+#sec-1 aside a {
+	background-color: #fff;
+	color: #000;
+	padding: 10px 20px;
+	border-radius: 25px;
+	font-size: 0.9rem;
+}
+
+
+/* section 2*/
+
+#sec-2 {
+	background-color: #000;
+	color:#fff;
+	padding: 25px 0;
+}
+
+#sec-2 h1{
+	color:#FAC667;
+	font-size: 1.6rem;
+	margin-bottom: 30px;
+}
+
+#sec-2 p{
+	text-align: justify;
+	font-size: 1rem;
+}
+
+#sec-3 {
+	font-size: 2rem;
+	text-align: center;
+	text-transform: capitalize;
+	padding: 20px 0;
+	font-weight: 500;
+	background: url('../images/sep.png') repeat-x;
+	color: #fff;
+}
+
+/* section 4 */
+#sec-4 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#sec-4 h1 {
+	font-weight: 500;
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+
+#sec-4 .card {
+	border:none;
+	margin-bottom: 20px;
+}
+
+#sec-4 h5.card-title {
+	color:#FFC700;
+}
+#sec-4 p.card-text {
+	text-align: justify;
+	font-size: 1rem;
+}
+
+#sec-4 .card-body {
+	background-color: #000;
+	color: #fff;
+}
+
+#sec-4 div.skew{
+	height: 20px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	margin-top: -20px;
+}
+
+#sec-4 div.skew div{
+	height: 20px;
+	width: 100%;
+	position: absolute;
+}
+
+#sec-4 div.skew div:first-of-type{
+	background-color: #ffc70061;
+	transform-origin: top right;
+	transform:rotate(-2deg);
+}
+
+#sec-4 div.skew div:last-of-type{
+	background-color: #000;
+	transform-origin: top left;
+	transform:rotate(2deg);
+}
+
+#sec-4 .cardImg {
+	position:relative;
+}
+
+#sec-4 .cardImg span{
+	position:absolute;
+	top:20px;
+	left: 20px;
+	display: inline-block;
+	background-color: rgba(0,0,0,0.6);
+	padding: 5px 10px;
+	border-radius: 8px;
+	color: #fff;
+	font-size: 0.9rem;
+}
+
+#sec-5 {
+	background-color: #000;
+	padding: 40px 0; 
+}
+
+#sec-5 h1 {
+	color: #FFC700;
+	font-size: 2rem;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+#sec-5 article {
+	margin-bottom: 20px;
+}
+
+#sec-6 {
+	background: #FDD014;
+	padding: 35px 0;
+	color:#fff;
+}
+
+#sec-6 h4{
+	font-size: 1rem;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#sec-6 h1{
+	font-size: 1.7rem;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#sec-6 a{
+	color: #000;
+	font-size: 0.9rem;
+	background-color: #fff;
+	padding: 10px 20px;
+	border-radius: 25px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* section 7 */
+
+#sec-7 {
+	background-color: #000;
+	color: #fff;
+	padding: 35px 0;
+}
+
+#sec-7 .container h1{
+	font-size: 2rem;
+	font-weight: 300;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+#sec-7 .container>p {
+	font-size: 0.9rem;
+	margin-bottom: 20px;	
+	text-align: justify;
+}
+
+#sec-7 img {
+	margin-bottom: 20px;
+}
+
+#sec-7 article {
+	text-align: center;
+}
+
+#sec-7 article h1{
+	font-weight: 600 !important;
+}
+
+#sec-7 article h4{
+	font-size: 1rem;
+}
+
+#sec-7 article p{
+	font-size: 0.9rem;
+}
+
+#sec-7 .container .row {
+	align-items: center;
+}
+
+/* section 8 */
+
+
+#sec-8 {
+	padding: 30px 0;
+	background: linear-gradient(#175000ab,#175000ab),url('../images/contactus.jpg') no-repeat center center;
+	color:#fff;
+	border-bottom: 2px solid #fff;
+}
+
+#sec-8 h1 {
+	color: #FFBC00;
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#sec-8 p {
+	font-size: 1rem;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+
+#sec-8 form {
+	box-shadow: 0 0 5px 2px #FFBC00;
+	padding: 15px;
+	border-radius: 6px;
+}
+
+#sec-8 form *{
+	width: 100%;
+	margin: 5px 0 5px;
+	padding: 5px 10px;
+	border-radius: 3px;
+	border:none;
+}
+
+#sec-8 form button {
+	background-color: #FFBC00;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.9rem;
+}
+
+/* footer */
+
+footer {
+	background-color: #000;
+	padding: 30px 0;
+	border-top: 10px solid #FFBC00;
+}
+
+footer a{
+	color: #fff;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-size: 0.9rem;
+	margin-bottom: 10px;
+}
+
+footer a:hover{
+	color: #FFBC00;
+	text-decoration: none;
+}
+
+footer .row>div {
+	margin-bottom: 10px;
+}
+
+footer .row>div>div {
+	margin-bottom: 20px;
+
+}
+
+footer .row>div>a {
+	display: block;
+}
+
+footer input {
+	width: 80%;
+	display: block;
+	color: #fff;
+	background-color: #000;
+	border: none;
+	border-bottom: thin solid #fff;
+	outline: none;
+	margin: 0 auto 30px;
+	
+}
+
+footer button {
+	background-color: #fff;
+	color: #000;
+	font-size: 0.9rem;
+	border-radius: 25px;
+	padding: 8px;
+	width:80%;
+	margin: 0 auto 30px;
+	display: block;
+}
+footer i{
+	display: inline-block;
+	width: 20px;
+	text-align: center;
+	margin-right: 5px;
+}
+
+
+/*devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	#sec-6 .container {
+		align-items: center;
+	}
+	
+	#sec-6 aside:first-of-type {
+		flex-basis: 75%;
+	}
+	
+	#sec-6 aside:last-of-type {
+		flex-basis: 25%;
+	}
+	
+	#sec-6 h4, #sec-6 h1 {
+		text-align: left;
+	} 
+	
+	#sec-6 aside a {
+		width: auto;
+	}
+	
+	#sec-7 article {
+	text-align: left;
+}
+	
+	#sec-8 h1 {
+	text-align: left;
+	}
+	
+	footer input {
+	display: inline-block;	
+	}
+
+footer button {
+
+	width:auto;
+	display: inline-block;
+	padding: 8px 20px;
+
+}
+
+	
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	
+	#sec-6 .container {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+}

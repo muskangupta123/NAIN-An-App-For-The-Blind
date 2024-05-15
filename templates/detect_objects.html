@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Detect Objects</title>
+</head>
+
+<body>
+    <h1>Object Detection</h1>
+    <button id="objectDetectionButton">Start Object Detection</button>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const objectDetectionButton = document.getElementById('objectDetectionButton');
+
+            objectDetectionButton.addEventListener('click', function (event) {
+                event.preventDefault();
+
+                fetch('/detect_objects', {
+                    method: 'POST'
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            console.log('Object detection process started.');
+                        } else {
+                            console.error('Failed to start object detection process.');
+                        }
+                    })
+                    .catch(error => console.error('Error starting object detection process:', error));
+            });
+        });
+    </script>
+</body>
+
+</html>
