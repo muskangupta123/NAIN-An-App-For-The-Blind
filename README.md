@@ -1,9 +1,67 @@
-# Ikshana_obj_detection_code
-A video and audio output object detection
+# NAIN: Real-Time Object Detection and Navigation Assistance for the Visually Impaired
+
+NAIN is a web-based application that provides real-time object detection and navigation assistance for individuals who are visually impaired or blind. It leverages computer vision techniques, such as the Single Shot Detector (SSD) model, to detect objects in the surroundings and provide audio-based guidance and feedback to the user.
+
+<img width="720" alt="image" src="https://github.com/muskangupta123/NAIN-An-App-For-The-Blind/assets/116276756/e4a12ccd-65ad-4378-a57a-8a4a1d9d03ef">
+
+<img width="655" alt="image" src="https://github.com/muskangupta123/NAIN-An-App-For-The-Blind/assets/116276756/abc666de-dd0c-41dc-a161-76776bee3eee">
+
+<img width="580" alt="image" src="https://github.com/muskangupta123/NAIN-An-App-For-The-Blind/assets/116276756/9755fd0c-6adf-4d17-8424-374ec58eac37">
+
+<img width="572" alt="image" src="https://github.com/muskangupta123/NAIN-An-App-For-The-Blind/assets/116276756/2bf8e52a-9170-4a1d-a7e1-2049cb6acedb">
+
+## Features
+
+- Real-time object detection and recognition
+- Distance estimation for detected objects
+- Audio output for detected objects and their distances
+- 360-degree audio navigation
+- Object identification and search
+- Alert system
+- Sign board reader
+- General voice interaction
 
 
-Development isn’t a fraction but a benefit of whole. Life of a visually impaired person is in no way easy. The inability to be aware of one’s surroundings and recognizing objects plays a huge impact on the quality of life they lead. It takes more time for them to understand the things in front of them. The absence of basic object recognition in a person’s life compromises their safety. To create an affordable and minimalistic gadget which will scan for objects in real time using a camera module and offer voice instruction to the user via an output speaker.It is capable of detecting objects within a certain pre-established range and is reliable for ensuring the safety of the user.Thus, we provide a secure and compact device for the visually impaired which is not only cost effective but also helps them recognize certain objects without physically touching them
+## Technologies Used
 
-Basic idea: The idea is to create a device that detects the objects and gives audio output in real time.
+- Frontend: HTML, CSS, JavaScript, OpenCV.js
+- Backend: Python Flask, OpenCV, pyttsx3
+- Machine Learning: Single Shot Detector (SSD) MobileNet v3 model
+- APIs: Google Maps Directions API, Text-to-Speech API (e.g., Responsive Voice)
 
-Working: The following procedure that happens in the running loop of detecting objects is as follows: Step 1: Taking the video input When the power supply is started, the Pi camera starts recording the video. This video is taken as input using Video capture function in the open CV package and running frames are captured by setting the Frame width, height and buffer size. Step 2: Detecting the objects In this project a pre-trained object detection model- “ssd_mobilenet_v3_large”, trained on coco dataset is used. The weights that are used is “frozen _inference graph. pb”. A class name list is created which contains class file consisting of the coco names. SSD mobile net model is taken as configuration path and frozen graph is taken as weights path. Using open CV detection model function with weight path and configuration path as parameters object detection in the running frames is done. When an object is detected successfully, it compares which is the suitable match for the detected object in the trained dataset and matches if the percentage is above 60% or the coco name which has highest match percentage. Step 3: Giving AudioOutput After the object is determined, the name of the object is taken from the class name list and is appended as text and given as audio output which comes from a speaker which is connected through bluetooth
+## Installation
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/nain.git
+```
+
+2. Install the required dependencies for the frontend and backend.
+
+3. Set up the necessary APIs (e.g., Google Maps, Text-to-Speech) and configure the required keys and credentials.
+
+4. Build and run the application locally.
+
+## Usage
+
+1. Open the web application in a compatible browser.
+2. Grant permission for camera access when prompted.
+3. Use the provided voice commands or touch gestures to interact with the application.
+4. The application will scan the surroundings, detect objects, and provide audio feedback and navigation assistance.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+
+
+## Acknowledgments
+
+- [OpenCV](https://opencv.org/)
+- [TensorFlow](https://www.tensorflow.org/)
+- [Flask](https://flask.palletsprojects.com/)
+- [Responsive Voice](https://responsivevoice.org/)
+
+![image](https://github.com/muskangupta123/NAIN-An-App-For-The-Blind/assets/116276756/2be7fa89-3514-40dc-a638-5f52d1605b62)
+
