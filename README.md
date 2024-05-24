@@ -10,6 +10,8 @@ NAIN is a web-based application that provides real-time object detection and nav
 
 <img width="572" alt="image" src="https://github.com/muskangupta123/NAIN-An-App-For-The-Blind/assets/116276756/2bf8e52a-9170-4a1d-a7e1-2049cb6acedb">
 
+![image](https://github.com/muskangupta123/NAIN-An-App-For-The-Blind/assets/116276756/2be7fa89-3514-40dc-a638-5f52d1605b62)
+
 ## Features
 
 - Real-time object detection and recognition
@@ -63,5 +65,5 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 - [Flask](https://flask.palletsprojects.com/)
 - [Responsive Voice](https://responsivevoice.org/)
 
-![image](https://github.com/muskangupta123/NAIN-An-App-For-The-Blind/assets/116276756/2be7fa89-3514-40dc-a638-5f52d1605b62)
+
 
