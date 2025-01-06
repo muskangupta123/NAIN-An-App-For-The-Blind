@@ -17,6 +17,8 @@ NAIN is a web-based application that provides real-time object detection and nav
 - Real-time object detection and recognition
 - Distance estimation for detected objects
 - Audio output for detected objects and their distances
+
+## Future Enhancements
 - 360-degree audio navigation
 - Object identification and search
 - Alert system
@@ -29,7 +31,6 @@ NAIN is a web-based application that provides real-time object detection and nav
 - Frontend: HTML, CSS, JavaScript, OpenCV.js
 - Backend: Python Flask, OpenCV, pyttsx3
 - Machine Learning: Single Shot Detector (SSD) MobileNet v3 model
-- APIs: Google Maps Directions API, Text-to-Speech API (e.g., Responsive Voice)
 
 ## Installation
 
