@@ -37,8 +37,9 @@ NAIN is a web-based application that provides real-time object detection and nav
 1. Clone the repository:
 
 ```
-git clone https://github.com/muskangupta123/nain.git
+git clone https://github.com/muskangupta123/NAIN-An-App-For-The-Blind.git
 ```
+
 
 2. Install the required dependencies for the frontend and backend.
 
